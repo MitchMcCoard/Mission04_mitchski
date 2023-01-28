@@ -1,0 +1,12 @@
+﻿body {
+}
+
+label {
+    border-block: dashed;
+}
+input {
+    /*border-block: dashed;*/
+}
+input[type='text'] {
+    width: 500px;
+}

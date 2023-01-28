@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mitch McCoard</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/myStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Mitch McCoard</h1>
+    <img src="img/IMG_9130.JPG" alt="Mitch and Kiera, his wife, wakeboarding" width="25%" />
+    <p>
+        There is a lot I hope to get out of this class. What I want most is a love of learning.
+        C# is nice, but I'm not sure if I'm going to use it for the rest of my life. Pehaps I'll get a job
+        that works in a different language or way. What I do know for sure is that I'll be learning. That
+        is why I chose this major, because I love to learn.
+    </p>
+    <p>Top 3 jobs I'm interested in:</p>
+    <ul>
+        <li>PhD student/Research professor</li>
+        <li>Data analyst, Business intelligence</li>
+        <li>CEO/entreprenuership</li>
+    </ul>
+
+    <p>Here is a cool grade calculator, just for fun. And also for requirements</p>
+    <form action="/" method="post">
+        <!--In here I included a few spaces just to make it look 'nice'. It's a little ridiculous haha'-->
+        <label for="assgn">Assignments:&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="assgn" name="assgn" value="94" min="0" max="100" />%<br /><br />
+
+        <label for="group">Group Project:&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="group" name="group" value="94" min="0" max="100" />%<br /><br />
+
+        <label for="quiz">Quizzes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="quiz" name="quiz" value="94" min="0" max="100" />%<br /><br />
+
+        <label for="midterm">Midterm Exam:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="midterm" name="midterm" value="94" min="0" max="100" />%<br /><br />
+
+        <label for="final">Final Exam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="final" name="final" value="94" min="0" max="100" />%<br /><br />
+
+        <label for="intex">INTEX:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="number" id="intex" name="intex" value="94" min="0" max="100" />%<br /><br />
+
+        <input type="button" id="calculate" name="calculate" value="calculate" /><br /><br />
+
+        <input type="text" id="output" name="output" size="30" value="" />
+    </form>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/myScripts.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
