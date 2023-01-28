@@ -1,4 +1,7 @@
 ﻿$('#calculate').click(function () {
+    //This calculates the estimated grade and then displays it in the output 'input'
+
+
 
     //Pull in the values
     var assgn = $('#assgn').val() * .5
