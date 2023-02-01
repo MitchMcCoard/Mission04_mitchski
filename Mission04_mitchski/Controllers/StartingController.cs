@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission04_mitchski.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,15 @@ namespace Mission04_mitchski.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Calculator ()
+        {
+            return View();
+        }
+
+        //You can overload this because it has a different signature (meaning it recieves a parameter when the "get" doesn't)
+        [HttpPost] //Called an attribute
+        public IActionResult Calculator (CalculatorModel model)
         {
             return View();
         }
