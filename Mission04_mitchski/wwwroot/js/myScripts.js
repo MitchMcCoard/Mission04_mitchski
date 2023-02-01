@@ -1,6 +1,6 @@
 ﻿$('#calculate').click(function () {
     //This calculates the estimated grade and then displays it in the output 'input'
-
+    //alert("Hey there!")
 
 
     //Pull in the values
@@ -41,5 +41,8 @@
     
     //This writes the output to the input field
     $('#output').val("You're grade could be an " + letter + " with " +  ioutput.toString() ) + '% '
+
+    //Changed to an alert for the MVC model
+    //alert("You're grade could be an " + letter + " with " + ioutput.toString()) + '% ')
 })
 
