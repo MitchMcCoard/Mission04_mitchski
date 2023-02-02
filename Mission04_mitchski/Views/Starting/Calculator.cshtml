@@ -8,7 +8,7 @@
 @model CalculatorModel;
 
 <p>Here is a cool grade calculator, just for fun. And also for requirements</p>
-<form  method="post">
+<form method="post">
     <!--In here I included a few spaces just to make it look 'nice'. It's a little ridiculous haha'-->
     <label for="assgn">Assignments:&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
     <input type="number" id="assgn" asp-for="Assignments" value="94" min="0" max="100" />%<br /><br />
@@ -31,6 +31,5 @@
     <input type="submit" id="calculate" name="calculate" value="calculate" /><br /><br />
 
     <input type="text" id="output" name="output" size="30" value="" />
-    <div asp-validation-summary ="All"></div>
+    <div asp-validation-summary="All"></div>
 </form>
-<script src="js/myScripts.js"></script>

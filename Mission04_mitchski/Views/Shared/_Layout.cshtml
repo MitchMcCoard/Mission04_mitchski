@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
     <title> @ViewData["Title"]</title>
-    <link rel="icon" type="image/png" href="img/logo.png" />
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/myStyles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="~/img/logo.png" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/myStyles.css" rel="stylesheet" />
 </head>
 <body>
     <nav>
-        <a asp-controller="Starting" asp-action="Index" >Home</a>
-        <a asp-controller="Starting" asp-action="Calculator" >Calculator</a>
+        <a asp-controller="Starting" asp-action="Index">Home</a>
+        <a asp-controller="Starting" asp-action="Calculator">Calculator</a>
     </nav>
     <div>
         @RenderBody()
     </div>
-    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="~/js/myScripts.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <footer>This is my footer:)</footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 ﻿$('#calculate').click(function () {
     //This calculates the estimated grade and then displays it in the output 'input'
-    //alert("Hey there!")
+
 
 
     //Pull in the values
@@ -11,7 +11,7 @@
     var final = $('#final').val() * .1
     var intex = $('#intex').val() * .1
 
-    var ioutput = Math.round( assgn + group + quiz + midterm + final + intex )
+    var ioutput = Math.round(assgn + group + quiz + midterm + final + intex)
     var letter = 'E'
 
     //Determine what grade letter this is
@@ -38,11 +38,10 @@
     } else if (ioutput >= 60) {
         letter = 'D-'
     }
-    
+
     //This writes the output to the input field
-    $('#output').val("You're grade could be an " + letter + " with " +  ioutput.toString() ) + '% '
+    //$('#output').val("You're grade could be an " + letter + " with " +  ioutput.toString() + '% ');
 
     //Changed to an alert for the MVC model
-    //alert("You're grade could be an " + letter + " with " + ioutput.toString()) + '% ')
-})
-
+    alert("You're grade could be an " + letter + " with " + ioutput.toString() + '% ');
+});
